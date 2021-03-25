@@ -11,8 +11,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-    	factory('App\Job',20)->create();
-    	factory('App\Company',20)->create();
     	factory('App\User',20)->create();
+    	factory('App\Company',20)->create();
+    	factory('App\Job',20)->create();
     }
 }
